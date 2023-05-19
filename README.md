@@ -6,7 +6,10 @@ A better approach for remembering things to do
 * [ ] Django
 * [ ] Configuring via django-environ
 * [ ] Configure Web Server
-* [ ] Testing
+* [ ] Testing / Coverage
+* [ ] Continuous Integration
+* [x] Pre-commit
+* [ ] Django Modeling
 
 ## Setup
 
