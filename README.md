@@ -2,9 +2,9 @@
 
 A better approach for remembering things to do 
 
-* [ ] Dependencies
-* [ ] Django
-* [ ] Configuring via django-environ
+* [x] Dependencies
+* [x] Django
+* [x] Configuring via django-environ
 * [ ] Configure Web Server
 * [ ] Testing / Coverage
 * [ ] Continuous Integration
