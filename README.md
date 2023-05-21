@@ -5,7 +5,7 @@ A better approach for remembering things to do
 * [x] Dependencies
 * [x] Django
 * [x] Configuring via django-environ
-* [ ] Configure Web Server
+* [x] Configure Web Server
 * [ ] Testing / Coverage
 * [ ] Continuous Integration
 * [x] Pre-commit
