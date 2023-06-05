@@ -1,2 +1,6 @@
 pip-tools
 pre-commit
+black
+pytest-django
+pytest-socket==0.6.0
+factory-boy==3.2.1
