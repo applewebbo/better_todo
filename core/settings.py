@@ -42,10 +42,12 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.sites",
     "django.contrib.staticfiles",
+    # 3RD PARTY APPS
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
-    "better_todo.accounts",
+    # APPS
+    "accounts",
 ]
 
 MIDDLEWARE = [
