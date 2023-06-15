@@ -24,8 +24,6 @@ django-allauth==0.54.0
     # via -r requirements.in
 django-environ==0.10.0
     # via -r requirements.in
-gunicorn==20.1.0
-    # via -r requirements.in
 idna==3.4
     # via requests
 oauthlib==3.2.2
@@ -46,6 +44,3 @@ sqlparse==0.4.4
     # via django
 urllib3==2.0.2
     # via requests
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
