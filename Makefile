@@ -6,21 +6,10 @@ local:
 deploy:
 	git push heroku main
 
-# graph:
-# 	./manage.py graph_models \
-# 		--rankdir BT \
-# 		accounts \
-# 		core \
-# 		courses \
-# 		notifications \
-# 		referrals \
-# 		reports \
-# 		schools \
-# 		students \
-# 		teachers \
-# 		users \
-# 		-o models.png
-#
+# Generate an image of the models of the system
+graph:
+	./manage.py graph_models
+
 # # For the next time I think about making this faster:
 # # -n auto --dist loadfile, 8 CPUs, 445 tests, 1m15s
 # # -n 4    --dist loadfile, 4 CPUs, 445 tests, 43s

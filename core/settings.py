@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "django_extensions",
     # APPS
     "accounts",
     "main",
@@ -198,3 +199,12 @@ ACCOUNT_USER_DISPLAY = lambda user: user.email  # noqa
 ACCOUNT_USERNAME_REQUIRED = False
 # ACCOUNT_USERNAME_VALIDATORS => default
 # SOCIALACCOUNT_* => default
+
+
+# DJANGO-EXTENSIONS
+
+GRAPH_MODELS = {
+    "app_labels": ["accounts", "main"],
+    "rankdir": "BT",
+    "output": "models.png",
+}
